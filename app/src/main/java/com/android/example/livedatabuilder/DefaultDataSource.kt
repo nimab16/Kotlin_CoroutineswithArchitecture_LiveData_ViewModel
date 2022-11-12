@@ -53,13 +53,7 @@ class DefaultDataSource(private val ioDispatcher: CoroutineDispatcher) : DataSou
 
 //        val client = OkHttpClient()
 //
-//        val request = Request.Builder()
-//            .url("https://aerisweather1.p.rapidapi.com/sunmoon/ankara,tr")
-//            .get()
-//            .addHeader("X-RapidAPI-Key", "0b35eb173cmshd985706cdc00678p147985jsn15d1a5221b08")
-//            .addHeader("X-RapidAPI-Host", "aerisweather1.p.rapidapi.com")
-//            .build()
-//
+//       
 //        val response = client.newCall(request).execute()
 //        val test = ""
 
